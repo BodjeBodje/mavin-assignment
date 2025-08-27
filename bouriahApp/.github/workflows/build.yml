@@ -27,7 +27,7 @@ jobs:
         run: mvn test
 
       - name: Package project
-        run: mvn -B package
+        run: mvn package
 
       - name: Show built artifacts in target/
         run: |
